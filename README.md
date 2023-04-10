@@ -12,7 +12,7 @@ To get started with this repository, you will need to have Rust and Cargo instal
 
 Once Rust and Cargo are installed, you can navigate to the folder of a specific Cargo project and run the following command to build and run the project:
 
-* cargo run
+```cargo run```
 
 ## Contributing
 
