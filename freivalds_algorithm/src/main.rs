@@ -1,7 +1,10 @@
-use ndarray::ArrayBase;
-use ndarray::Dim;
-use ndarray::{arr1, arr2, Array};
+use ndarray::{arr1, arr2};
 use rand::Rng;
+
+// it appears that I did not allocate as much effort towards optimizing the algorithm as I could have. 
+// Specifically, I opted not to expand it to an n x n configuration. However, given the straightforward
+// nature of the algorithm, it seemed like a prudent decision to avoid expending too much additional
+//  time on this particular task.
 
 fn main() {
     // we start with an n x n matrix, here we are using 3 x 3 with elements
@@ -17,6 +20,7 @@ fn main() {
 
     // create an n x 1 vector x = [1, r, r^2, ..., r^n-1]
     let x = arr1(&[1, r, r.pow(2)]);
+    // note that this can be calculated in O(n) time as calculating r^n is simplily r^(n - 1) * r
 
     let w = b.dot(&x); // Bx
 
