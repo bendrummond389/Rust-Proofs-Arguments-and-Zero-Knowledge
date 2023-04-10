@@ -12,3 +12,12 @@ To get started with this repository, you will need to have Rust and Cargo instal
 
 Once Rust and Cargo are installed, you can navigate to the folder of a specific Cargo project and run the following command to build and run the project:
 
+* cargo run
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
