@@ -1,6 +1,6 @@
 # Rust Implementations of Algorithms from "Proofs, Arguments, and Zero-Knowledge"
 
-This repository contains Rust implementations of various algorithms and concepts from the book "Proofs, Arguments, and Zero-Knowledge" by Justin Thaler. The primary goal of this project is to gain a deeper understanding of cryptographic primitives, protocols, and zero-knowledge proofs while learning Rust programming.
+This repository contains Rust implementations of various algorithms and concepts from the book "Proofs, Arguments, and Zero-Knowledge" by Justin Thaler. The primary goal of this project is to gain a deeper understanding of cryptographic primitives, protocols, and zero-knowledge proofs while learning Rust programming. The majority of comments in the codebase are directly quoted from the work of Justin Thaler. The primary purpose of this repository is to enhance my knowledge of the subject matter, and I have found that including direct comparisons between the mathematical concepts and their implementations has been instrumental in furthering my comprehension. It is requested that all comments be attributed to Justin Thaler as appropriate.
 
 ## Repository Structure
 
