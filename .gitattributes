@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.rs linguist-language=Rust
+Cargo.toml linguist-language=TOML
